@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: echo-server2
+  name: echo-server3
   namespace: argocd
 spec:
   project: default
@@ -13,7 +13,7 @@ spec:
       recurse: true
   destination:
     server: https://kubernetes.default.svc
-    namespace: echo-server2
+    namespace: echo-server3
   syncPolicy:
     automated:
       prune: false
