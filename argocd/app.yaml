@@ -4,7 +4,7 @@ metadata:
   name: echo-server2
   namespace: argocd
 spec:
-  project: default
+  project: default2
   source:
     repoURL: https://github.com/gabletest/echo-k8s-app/
     targetRevision: HEAD
